@@ -1,0 +1,79 @@
+{
+  "headId": "a",
+  "comparisons": [
+    {
+      "id": "a",
+      "parents": [],
+      "alternatives": [
+        "b",
+        "c"
+      ],
+      "weightRatios": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          4.0,
+          1.0
+        ]
+      ],
+      "hierarchyVector": [
+        0.1,
+        0.9
+      ]
+    },
+    {
+      "id": "b",
+      "parents": [
+        "a"
+      ],
+      "alternatives": [
+        "d",
+        "e"
+      ],
+      "weightRatios": [
+        [
+          1.0,
+          7.0
+        ],
+        [
+          6.0,
+          1.0
+        ]
+      ],
+      "hierarchyVector": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "c",
+      "parents": [
+        "a"
+      ],
+      "alternatives": [
+        "p",
+        "o"
+      ],
+      "weightRatios": [
+        [
+          7.0,
+          1.0
+        ],
+        [
+          5.0,
+          1.0
+        ]
+      ],
+      "hierarchyVector": [
+        0.8,
+        0.2
+      ]
+    }
+  ],
+  "alternatives": [
+    "b",
+    "c"
+  ]
+}
